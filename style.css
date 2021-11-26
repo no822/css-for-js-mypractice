@@ -10,3 +10,74 @@ body {
 }
 
 /* Add styles here! */
+
+/* 색상지정 */
+.green-primary {
+  color: hsl(160deg, 100%, 30%);
+}
+.gold-secondary-lighter {
+  color: hsl(45deg, 100%, 50%); 
+}
+.gold-secondary-darker {
+  color: hsl(45deg, 100%, 40%);
+}  
+.gray-black {
+  color: hsl(0deg, 0%, 0%);
+}
+.gray-very_dark {
+  color:hsl(0deg, 0%, 10%);
+}
+.gray-dark {
+  color: hsl(0deg, 0%, 30%);
+}
+.gray-medium {
+  color: hsl(0deg, 0%, 40%);
+}
+.gray-light {
+  color: hsl(0deg, 0%, 60%);
+}
+.gray-white {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.max-width-wrapper {
+  padding: 32px;
+  
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 5px solid hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+  margin: 0 auto 0 0;
+  padding: 64px 0 32px 24px;
+  width: 270px;
+  max-width: max-content;
+}
+
+p strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 5px solid hsl(0deg, 0%, 40%);
+  padding: 1px 16px;
+  max-width: 575px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+.indented-heading {
+  width: fit-content;
+  font-size: 1.25rem;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+  padding: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: -32px;
+}
